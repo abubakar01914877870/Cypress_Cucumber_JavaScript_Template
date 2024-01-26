@@ -12,6 +12,8 @@
     "cypress": "^13.6.3"
   },
   "dependencies": {
-    "@badeball/cypress-cucumber-preprocessor": "^20.0.1"
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "@cypress/webpack-preprocessor": "^6.0.1"
   }
 }

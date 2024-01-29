@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "node cypress/scripts/runner.js",
+    "cy:open": "npx cypress open --browser chrome",
+    "cy:run": "npx cypress run --browser chrome"
   },
-  "author": "",
+  "author": "Abu Bakar Siddique (Sunny)",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^13.6.3"
